@@ -1,8 +1,12 @@
-# React + Vite
+INTRODUCTION :
+The Task is to implement a correct password reset flow with email verification and proper update of the new password in the database for a web app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Key Features :
 
-Currently, two official plugins are available:
+1. Design a Forget Password Page:
+2. Check if the User Exists in the Database (DB):
+3. Store the Hashed Password String in the DB
+4. Show Password Reset Form
+5. Store the New Password
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For Backend Source Code Refer [Click Here](https://github.com/MohamedUmar083/Auth-backend)
