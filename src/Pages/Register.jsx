@@ -13,7 +13,10 @@ const Register = () => {
     e.preventDefault();
     const payload = { username, email, password };
     await axios
-      .post("http://localhost:8383/api/user/register-user", payload)
+      .post(
+        "https://auth-backend-a2gs.onrender.com/api/user/register-user",
+        payload
+      )
       .then((res) => setMsg(res.data.Message))
       .catch((error) => setMsg(error.data.Message));
     setTimeout(() => {

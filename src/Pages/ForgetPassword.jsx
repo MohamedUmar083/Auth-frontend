@@ -11,7 +11,7 @@ const ForgetPassword = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:8383/api/user/forget-password",
+        "https://auth-backend-a2gs.onrender.com/api/user/forget-password",
         {
           email,
         }

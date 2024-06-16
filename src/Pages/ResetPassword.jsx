@@ -14,7 +14,7 @@ const ResetPassword = () => {
     const payload = { newpassword, confirmpassword };
     try {
       const response = await axios.post(
-        `http://localhost:8383/api/user/reset-password/${id}`,
+        `https://auth-backend-a2gs.onrender.com/api/user/reset-password/${id}`,
         payload
       );
       if (response.status == 200) {

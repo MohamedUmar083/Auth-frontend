@@ -12,7 +12,10 @@ const Login = () => {
     e.preventDefault();
     const payload = { email, password };
     await axios
-      .post("http://localhost:8383/api/user/login-user", payload)
+      .post(
+        "https://auth-backend-a2gs.onrender.com/api/user/login-user",
+        payload
+      )
       .then((res) => {
         setMsg(res.data.Message);
 
