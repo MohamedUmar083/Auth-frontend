@@ -13,7 +13,7 @@ const Login = () => {
     const payload = { email, password };
     await axios
       .post(
-        "https://auth-backend-a2gs.onrender.com/api/user/login-user",
+        "https://auth-backend-2xfq.onrender.com/api/user/login-user",
         payload
       )
       .then((res) => {
